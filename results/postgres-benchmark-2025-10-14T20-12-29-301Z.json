@@ -1,0 +1,3254 @@
+{
+  "withPooling": [
+    {
+      "concurrentUsers": 10,
+      "poolSize": 20,
+      "url": "http://localhost:3002",
+      "connections": 10,
+      "sampleInt": 1000,
+      "pipelining": 1,
+      "duration": 30.2,
+      "samples": 30,
+      "start": "2025-10-14T20:09:16.059Z",
+      "finish": "2025-10-14T20:09:46.262Z",
+      "errors": 0,
+      "timeouts": 0,
+      "mismatches": 0,
+      "non2xx": 0,
+      "resets": 0,
+      "1xx": 0,
+      "2xx": 19487,
+      "3xx": 0,
+      "4xx": 0,
+      "5xx": 0,
+      "statusCodeStats": {
+        "200": {
+          "count": 19487
+        }
+      },
+      "latency": {
+        "average": 15,
+        "mean": 15,
+        "stddev": 3.18,
+        "min": 11,
+        "max": 131,
+        "p0_001": 11,
+        "p0_01": 11,
+        "p0_1": 11,
+        "p1": 12,
+        "p2_5": 12,
+        "p10": 13,
+        "p25": 14,
+        "p50": 15,
+        "p75": 15,
+        "p90": 16,
+        "p97_5": 20,
+        "p99": 26,
+        "p99_9": 28,
+        "p99_99": 131,
+        "p99_999": 131,
+        "totalCount": 19487
+      },
+      "requests": {
+        "average": 649.57,
+        "mean": 649.57,
+        "stddev": 13.77,
+        "min": 586,
+        "max": 670,
+        "total": 19487,
+        "p0_001": 586,
+        "p0_01": 586,
+        "p0_1": 586,
+        "p1": 586,
+        "p2_5": 586,
+        "p10": 640,
+        "p25": 648,
+        "p50": 650,
+        "p75": 656,
+        "p90": 660,
+        "p97_5": 670,
+        "p99": 670,
+        "p99_9": 670,
+        "p99_99": 670,
+        "p99_999": 670,
+        "sent": 19497
+      },
+      "throughput": {
+        "average": 160448,
+        "mean": 160448,
+        "stddev": 3398.96,
+        "min": 144750,
+        "max": 165490,
+        "total": 4813297,
+        "p0_001": 144767,
+        "p0_01": 144767,
+        "p0_1": 144767,
+        "p1": 144767,
+        "p2_5": 144767,
+        "p10": 158207,
+        "p25": 160127,
+        "p50": 160639,
+        "p75": 162047,
+        "p90": 163071,
+        "p97_5": 165503,
+        "p99": 165503,
+        "p99_9": 165503,
+        "p99_99": 165503,
+        "p99_999": 165503
+      }
+    },
+    {
+      "concurrentUsers": 50,
+      "poolSize": 20,
+      "url": "http://localhost:3002",
+      "connections": 50,
+      "sampleInt": 1000,
+      "pipelining": 1,
+      "duration": 30.13,
+      "samples": 30,
+      "start": "2025-10-14T20:09:48.279Z",
+      "finish": "2025-10-14T20:10:18.412Z",
+      "errors": 0,
+      "timeouts": 0,
+      "mismatches": 0,
+      "non2xx": 0,
+      "resets": 0,
+      "1xx": 0,
+      "2xx": 39167,
+      "3xx": 0,
+      "4xx": 0,
+      "5xx": 0,
+      "statusCodeStats": {
+        "200": {
+          "count": 39167
+        }
+      },
+      "latency": {
+        "average": 37.93,
+        "mean": 37.93,
+        "stddev": 9.57,
+        "min": 23,
+        "max": 230,
+        "p0_001": 23,
+        "p0_01": 23,
+        "p0_1": 24,
+        "p1": 26,
+        "p2_5": 27,
+        "p10": 29,
+        "p25": 30,
+        "p50": 41,
+        "p75": 45,
+        "p90": 46,
+        "p97_5": 48,
+        "p99": 57,
+        "p99_9": 166,
+        "p99_99": 230,
+        "p99_999": 230,
+        "totalCount": 39167
+      },
+      "requests": {
+        "average": 1305.57,
+        "mean": 1305.57,
+        "stddev": 44.38,
+        "min": 1075,
+        "max": 1337,
+        "total": 39167,
+        "p0_001": 1075,
+        "p0_01": 1075,
+        "p0_1": 1075,
+        "p1": 1075,
+        "p2_5": 1075,
+        "p10": 1294,
+        "p25": 1303,
+        "p50": 1312,
+        "p75": 1324,
+        "p90": 1326,
+        "p97_5": 1337,
+        "p99": 1337,
+        "p99_9": 1337,
+        "p99_99": 1337,
+        "p99_999": 1337,
+        "sent": 39217
+      },
+      "throughput": {
+        "average": 322491.74,
+        "mean": 322491.74,
+        "stddev": 10945.05,
+        "min": 265576,
+        "max": 330239,
+        "total": 9674300,
+        "p0_001": 265727,
+        "p0_01": 265727,
+        "p0_1": 265727,
+        "p1": 265727,
+        "p2_5": 265727,
+        "p10": 319743,
+        "p25": 322047,
+        "p50": 324095,
+        "p75": 327167,
+        "p90": 327679,
+        "p97_5": 330239,
+        "p99": 330239,
+        "p99_9": 330239,
+        "p99_99": 330239,
+        "p99_999": 330239
+      }
+    },
+    {
+      "concurrentUsers": 100,
+      "poolSize": 20,
+      "url": "http://localhost:3002",
+      "connections": 100,
+      "sampleInt": 1000,
+      "pipelining": 1,
+      "duration": 30.15,
+      "samples": 30,
+      "start": "2025-10-14T20:10:20.428Z",
+      "finish": "2025-10-14T20:10:50.573Z",
+      "errors": 0,
+      "timeouts": 0,
+      "mismatches": 0,
+      "non2xx": 0,
+      "resets": 0,
+      "1xx": 0,
+      "2xx": 41449,
+      "3xx": 0,
+      "4xx": 0,
+      "5xx": 0,
+      "statusCodeStats": {
+        "200": {
+          "count": 41449
+        }
+      },
+      "latency": {
+        "average": 72.1,
+        "mean": 72.1,
+        "stddev": 9.37,
+        "min": 60,
+        "max": 273,
+        "p0_001": 60,
+        "p0_01": 60,
+        "p0_1": 60,
+        "p1": 63,
+        "p2_5": 64,
+        "p10": 66,
+        "p25": 69,
+        "p50": 72,
+        "p75": 74,
+        "p90": 77,
+        "p97_5": 84,
+        "p99": 89,
+        "p99_9": 247,
+        "p99_99": 273,
+        "p99_999": 273,
+        "totalCount": 41449
+      },
+      "requests": {
+        "average": 1381.64,
+        "mean": 1381.64,
+        "stddev": 73.98,
+        "min": 1053,
+        "max": 1480,
+        "total": 41449,
+        "p0_001": 1053,
+        "p0_01": 1053,
+        "p0_1": 1053,
+        "p1": 1053,
+        "p2_5": 1053,
+        "p10": 1327,
+        "p25": 1372,
+        "p50": 1380,
+        "p75": 1420,
+        "p90": 1440,
+        "p97_5": 1480,
+        "p99": 1480,
+        "p99_9": 1480,
+        "p99_99": 1480,
+        "p99_999": 1480,
+        "sent": 41549
+      },
+      "throughput": {
+        "average": 341271.47,
+        "mean": 341271.47,
+        "stddev": 18263.86,
+        "min": 260206,
+        "max": 365560,
+        "total": 10238018,
+        "p0_001": 260223,
+        "p0_01": 260223,
+        "p0_1": 260223,
+        "p1": 260223,
+        "p2_5": 260223,
+        "p10": 327935,
+        "p25": 338943,
+        "p50": 340991,
+        "p75": 350975,
+        "p90": 355839,
+        "p97_5": 365567,
+        "p99": 365567,
+        "p99_9": 365567,
+        "p99_99": 365567,
+        "p99_999": 365567
+      }
+    },
+    {
+      "concurrentUsers": 200,
+      "poolSize": 20,
+      "url": "http://localhost:3002",
+      "connections": 200,
+      "sampleInt": 1000,
+      "pipelining": 1,
+      "duration": 30.16,
+      "samples": 30,
+      "start": "2025-10-14T20:10:52.608Z",
+      "finish": "2025-10-14T20:11:22.772Z",
+      "errors": 0,
+      "timeouts": 0,
+      "mismatches": 0,
+      "non2xx": 0,
+      "resets": 0,
+      "1xx": 0,
+      "2xx": 41049,
+      "3xx": 0,
+      "4xx": 0,
+      "5xx": 0,
+      "statusCodeStats": {
+        "200": {
+          "count": 41049
+        }
+      },
+      "latency": {
+        "average": 146.01,
+        "mean": 146.01,
+        "stddev": 11.99,
+        "min": 127,
+        "max": 344,
+        "p0_001": 127,
+        "p0_01": 127,
+        "p0_1": 128,
+        "p1": 131,
+        "p2_5": 132,
+        "p10": 137,
+        "p25": 140,
+        "p50": 145,
+        "p75": 150,
+        "p90": 155,
+        "p97_5": 162,
+        "p99": 167,
+        "p99_9": 315,
+        "p99_99": 344,
+        "p99_999": 344,
+        "totalCount": 41049
+      },
+      "requests": {
+        "average": 1368.3,
+        "mean": 1368.3,
+        "stddev": 61.44,
+        "min": 1096,
+        "max": 1460,
+        "total": 41049,
+        "p0_001": 1096,
+        "p0_01": 1096,
+        "p0_1": 1096,
+        "p1": 1096,
+        "p2_5": 1096,
+        "p10": 1320,
+        "p25": 1347,
+        "p50": 1378,
+        "p75": 1397,
+        "p90": 1423,
+        "p97_5": 1460,
+        "p99": 1460,
+        "p99_9": 1460,
+        "p99_99": 1460,
+        "p99_999": 1460,
+        "sent": 41249
+      },
+      "throughput": {
+        "average": 339328,
+        "mean": 339328,
+        "stddev": 15241.65,
+        "min": 271808,
+        "max": 362080,
+        "total": 10180152,
+        "p0_001": 271871,
+        "p0_01": 271871,
+        "p0_1": 271871,
+        "p1": 271871,
+        "p2_5": 271871,
+        "p10": 327423,
+        "p25": 334079,
+        "p50": 341759,
+        "p75": 346623,
+        "p90": 353023,
+        "p97_5": 362239,
+        "p99": 362239,
+        "p99_9": 362239,
+        "p99_99": 362239,
+        "p99_999": 362239
+      }
+    },
+    {
+      "concurrentUsers": 500,
+      "poolSize": 20,
+      "url": "http://localhost:3002",
+      "connections": 500,
+      "sampleInt": 1000,
+      "pipelining": 1,
+      "duration": 30.15,
+      "samples": 30,
+      "start": "2025-10-14T20:11:24.808Z",
+      "finish": "2025-10-14T20:11:54.957Z",
+      "errors": 426,
+      "timeouts": 0,
+      "mismatches": 0,
+      "non2xx": 0,
+      "resets": 0,
+      "1xx": 0,
+      "2xx": 41157,
+      "3xx": 0,
+      "4xx": 0,
+      "5xx": 0,
+      "statusCodeStats": {
+        "200": {
+          "count": 41157
+        }
+      },
+      "latency": {
+        "average": 665.04,
+        "mean": 665.04,
+        "stddev": 324.02,
+        "min": 335,
+        "max": 1886,
+        "p0_001": 335,
+        "p0_01": 336,
+        "p0_1": 338,
+        "p1": 341,
+        "p2_5": 344,
+        "p10": 352,
+        "p25": 360,
+        "p50": 703,
+        "p75": 1060,
+        "p90": 1090,
+        "p97_5": 1126,
+        "p99": 1450,
+        "p99_9": 1827,
+        "p99_99": 1867,
+        "p99_999": 1886,
+        "totalCount": 41157
+      },
+      "requests": {
+        "average": 1371.9,
+        "mean": 1371.9,
+        "stddev": 98.4,
+        "min": 858,
+        "max": 1431,
+        "total": 41157,
+        "p0_001": 858,
+        "p0_01": 858,
+        "p0_1": 858,
+        "p1": 858,
+        "p2_5": 858,
+        "p10": 1339,
+        "p25": 1379,
+        "p50": 1392,
+        "p75": 1410,
+        "p90": 1414,
+        "p97_5": 1431,
+        "p99": 1431,
+        "p99_9": 1431,
+        "p99_99": 1431,
+        "p99_999": 1431,
+        "sent": 42083
+      },
+      "throughput": {
+        "average": 340204.8,
+        "mean": 340204.8,
+        "stddev": 24391.68,
+        "min": 212784,
+        "max": 354888,
+        "total": 10206936,
+        "p0_001": 212863,
+        "p0_01": 212863,
+        "p0_1": 212863,
+        "p1": 212863,
+        "p2_5": 212863,
+        "p10": 332287,
+        "p25": 342015,
+        "p50": 345343,
+        "p75": 349695,
+        "p90": 350719,
+        "p97_5": 355071,
+        "p99": 355071,
+        "p99_9": 355071,
+        "p99_99": 355071,
+        "p99_999": 355071
+      }
+    },
+    {
+      "concurrentUsers": 1000,
+      "poolSize": 20,
+      "url": "http://localhost:3002",
+      "connections": 1000,
+      "sampleInt": 1000,
+      "pipelining": 1,
+      "duration": 30.23,
+      "samples": 30,
+      "start": "2025-10-14T20:11:57.016Z",
+      "finish": "2025-10-14T20:12:27.247Z",
+      "errors": 3458,
+      "timeouts": 0,
+      "mismatches": 0,
+      "non2xx": 0,
+      "resets": 0,
+      "1xx": 0,
+      "2xx": 37275,
+      "3xx": 0,
+      "4xx": 0,
+      "5xx": 0,
+      "statusCodeStats": {
+        "200": {
+          "count": 37275
+        }
+      },
+      "latency": {
+        "average": 3232.07,
+        "mean": 3232.07,
+        "stddev": 2050.41,
+        "min": 586,
+        "max": 7635,
+        "p0_001": 586,
+        "p0_01": 587,
+        "p0_1": 613,
+        "p1": 705,
+        "p2_5": 713,
+        "p10": 738,
+        "p25": 1444,
+        "p50": 3013,
+        "p75": 5075,
+        "p90": 6093,
+        "p97_5": 6844,
+        "p99": 7393,
+        "p99_9": 7603,
+        "p99_99": 7624,
+        "p99_999": 7635,
+        "totalCount": 37275
+      },
+      "requests": {
+        "average": 1242.5,
+        "mean": 1242.5,
+        "stddev": 351.38,
+        "min": 36,
+        "max": 1440,
+        "total": 37275,
+        "p0_001": 0,
+        "p0_01": 0,
+        "p0_1": 0,
+        "p1": 0,
+        "p2_5": 0,
+        "p10": 668,
+        "p25": 1323,
+        "p50": 1335,
+        "p75": 1380,
+        "p90": 1400,
+        "p97_5": 1440,
+        "p99": 1440,
+        "p99_9": 1440,
+        "p99_99": 1440,
+        "p99_999": 1440,
+        "sent": 41733
+      },
+      "throughput": {
+        "average": 308158,
+        "mean": 308158,
+        "stddev": 87115.67,
+        "min": 8964,
+        "max": 357120,
+        "total": 9244619,
+        "p0_001": 0,
+        "p0_01": 0,
+        "p0_1": 0,
+        "p1": 0,
+        "p2_5": 0,
+        "p10": 166143,
+        "p25": 328191,
+        "p50": 331263,
+        "p75": 342271,
+        "p90": 347391,
+        "p97_5": 357375,
+        "p99": 357375,
+        "p99_9": 357375,
+        "p99_99": 357375,
+        "p99_999": 357375
+      }
+    }
+  ],
+  "withoutPooling": [
+    {
+      "concurrentUsers": 10,
+      "url": "http://localhost:3001",
+      "connections": 10,
+      "sampleInt": 1000,
+      "pipelining": 1,
+      "duration": 30.06,
+      "samples": 30,
+      "start": "2025-10-14T20:07:07.520Z",
+      "finish": "2025-10-14T20:07:37.579Z",
+      "errors": 0,
+      "timeouts": 0,
+      "mismatches": 0,
+      "non2xx": 0,
+      "resets": 0,
+      "1xx": 0,
+      "2xx": 3061,
+      "3xx": 0,
+      "4xx": 0,
+      "5xx": 0,
+      "statusCodeStats": {
+        "200": {
+          "count": 3061
+        }
+      },
+      "latency": {
+        "average": 97.44,
+        "mean": 97.44,
+        "stddev": 28.62,
+        "min": 53,
+        "max": 263,
+        "p0_001": 53,
+        "p0_01": 53,
+        "p0_1": 54,
+        "p1": 60,
+        "p2_5": 66,
+        "p10": 73,
+        "p25": 82,
+        "p50": 93,
+        "p75": 103,
+        "p90": 116,
+        "p97_5": 199,
+        "p99": 211,
+        "p99_9": 258,
+        "p99_99": 263,
+        "p99_999": 263,
+        "totalCount": 3061
+      },
+      "requests": {
+        "average": 102.04,
+        "mean": 102.04,
+        "stddev": 5.55,
+        "min": 85,
+        "max": 110,
+        "total": 3061,
+        "p0_001": 85,
+        "p0_01": 85,
+        "p0_1": 85,
+        "p1": 85,
+        "p2_5": 85,
+        "p10": 95,
+        "p25": 99,
+        "p50": 103,
+        "p75": 106,
+        "p90": 108,
+        "p97_5": 110,
+        "p99": 110,
+        "p99_9": 110,
+        "p99_99": 110,
+        "p99_999": 110,
+        "sent": 3071
+      },
+      "throughput": {
+        "average": 25236.8,
+        "mean": 25236.8,
+        "stddev": 1365.29,
+        "min": 21023,
+        "max": 27198,
+        "total": 757089,
+        "p0_001": 21023,
+        "p0_01": 21023,
+        "p0_1": 21023,
+        "p1": 21023,
+        "p2_5": 21023,
+        "p10": 23503,
+        "p25": 24511,
+        "p50": 25487,
+        "p75": 26223,
+        "p90": 26719,
+        "p97_5": 27199,
+        "p99": 27199,
+        "p99_9": 27199,
+        "p99_99": 27199,
+        "p99_999": 27199
+      }
+    },
+    {
+      "concurrentUsers": 50,
+      "url": "http://localhost:3001",
+      "connections": 50,
+      "sampleInt": 1000,
+      "pipelining": 1,
+      "duration": 30.07,
+      "samples": 30,
+      "start": "2025-10-14T20:07:39.601Z",
+      "finish": "2025-10-14T20:08:09.672Z",
+      "errors": 0,
+      "timeouts": 0,
+      "mismatches": 0,
+      "non2xx": 0,
+      "resets": 0,
+      "1xx": 0,
+      "2xx": 3067,
+      "3xx": 0,
+      "4xx": 0,
+      "5xx": 0,
+      "statusCodeStats": {
+        "200": {
+          "count": 3067
+        }
+      },
+      "latency": {
+        "average": 483.65,
+        "mean": 483.65,
+        "stddev": 152.45,
+        "min": 136,
+        "max": 1132,
+        "p0_001": 136,
+        "p0_01": 136,
+        "p0_1": 163,
+        "p1": 226,
+        "p2_5": 244,
+        "p10": 300,
+        "p25": 367,
+        "p50": 468,
+        "p75": 581,
+        "p90": 692,
+        "p97_5": 825,
+        "p99": 886,
+        "p99_9": 1080,
+        "p99_99": 1132,
+        "p99_999": 1132,
+        "totalCount": 3067
+      },
+      "requests": {
+        "average": 102.24,
+        "mean": 102.24,
+        "stddev": 13.77,
+        "min": 80,
+        "max": 128,
+        "total": 3067,
+        "p0_001": 80,
+        "p0_01": 80,
+        "p0_1": 80,
+        "p1": 80,
+        "p2_5": 80,
+        "p10": 86,
+        "p25": 91,
+        "p50": 99,
+        "p75": 115,
+        "p90": 117,
+        "p97_5": 128,
+        "p99": 128,
+        "p99_9": 128,
+        "p99_99": 128,
+        "p99_999": 128,
+        "sent": 3117
+      },
+      "throughput": {
+        "average": 25357.87,
+        "mean": 25357.87,
+        "stddev": 3413.68,
+        "min": 19841,
+        "max": 31744,
+        "total": 760623,
+        "p0_001": 19855,
+        "p0_01": 19855,
+        "p0_1": 19855,
+        "p1": 19855,
+        "p2_5": 19855,
+        "p10": 21343,
+        "p25": 22575,
+        "p50": 24559,
+        "p75": 28527,
+        "p90": 29023,
+        "p97_5": 31759,
+        "p99": 31759,
+        "p99_9": 31759,
+        "p99_99": 31759,
+        "p99_999": 31759
+      }
+    },
+    {
+      "concurrentUsers": 100,
+      "url": "http://localhost:3001",
+      "connections": 100,
+      "sampleInt": 1000,
+      "pipelining": 1,
+      "duration": 30.15,
+      "samples": 30,
+      "start": "2025-10-14T20:08:11.687Z",
+      "finish": "2025-10-14T20:08:41.832Z",
+      "errors": 0,
+      "timeouts": 0,
+      "mismatches": 0,
+      "non2xx": 0,
+      "resets": 0,
+      "1xx": 0,
+      "2xx": 2672,
+      "3xx": 0,
+      "4xx": 0,
+      "5xx": 0,
+      "statusCodeStats": {
+        "200": {
+          "count": 2672
+        }
+      },
+      "latency": {
+        "average": 1097.72,
+        "mean": 1097.72,
+        "stddev": 354.61,
+        "min": 144,
+        "max": 2802,
+        "p0_001": 144,
+        "p0_01": 144,
+        "p0_1": 243,
+        "p1": 389,
+        "p2_5": 489,
+        "p10": 672,
+        "p25": 838,
+        "p50": 1066,
+        "p75": 1325,
+        "p90": 1573,
+        "p97_5": 1834,
+        "p99": 2009,
+        "p99_9": 2346,
+        "p99_99": 2802,
+        "p99_999": 2802,
+        "totalCount": 2672
+      },
+      "requests": {
+        "average": 89.07,
+        "mean": 89.07,
+        "stddev": 14.48,
+        "min": 54,
+        "max": 116,
+        "total": 2672,
+        "p0_001": 54,
+        "p0_01": 54,
+        "p0_1": 54,
+        "p1": 54,
+        "p2_5": 54,
+        "p10": 66,
+        "p25": 84,
+        "p50": 88,
+        "p75": 98,
+        "p90": 107,
+        "p97_5": 116,
+        "p99": 116,
+        "p99_9": 116,
+        "p99_99": 116,
+        "p99_999": 116,
+        "sent": 2772
+      },
+      "throughput": {
+        "average": 22141.07,
+        "mean": 22141.07,
+        "stddev": 3603.32,
+        "min": 13392,
+        "max": 28825,
+        "total": 664181,
+        "p0_001": 13399,
+        "p0_01": 13399,
+        "p0_1": 13399,
+        "p1": 13399,
+        "p2_5": 13399,
+        "p10": 16375,
+        "p25": 20895,
+        "p50": 21887,
+        "p75": 24383,
+        "p90": 26607,
+        "p97_5": 28831,
+        "p99": 28831,
+        "p99_9": 28831,
+        "p99_99": 28831,
+        "p99_999": 28831
+      }
+    },
+    {
+      "concurrentUsers": 200,
+      "url": "http://localhost:3001",
+      "connections": 200,
+      "sampleInt": 1000,
+      "pipelining": 1,
+      "duration": 30.2,
+      "samples": 30,
+      "start": "2025-10-14T20:08:43.848Z",
+      "finish": "2025-10-14T20:09:14.044Z",
+      "errors": 0,
+      "timeouts": 0,
+      "mismatches": 0,
+      "non2xx": 0,
+      "resets": 0,
+      "1xx": 0,
+      "2xx": 2605,
+      "3xx": 0,
+      "4xx": 0,
+      "5xx": 0,
+      "statusCodeStats": {
+        "200": {
+          "count": 2605
+        }
+      },
+      "latency": {
+        "average": 2242.03,
+        "mean": 2242.03,
+        "stddev": 821.87,
+        "min": 223,
+        "max": 5700,
+        "p0_001": 223,
+        "p0_01": 223,
+        "p0_1": 264,
+        "p1": 485,
+        "p2_5": 816,
+        "p10": 1213,
+        "p25": 1620,
+        "p50": 2224,
+        "p75": 2807,
+        "p90": 3258,
+        "p97_5": 4000,
+        "p99": 4319,
+        "p99_9": 5061,
+        "p99_99": 5700,
+        "p99_999": 5700,
+        "totalCount": 2605
+      },
+      "requests": {
+        "average": 86.84,
+        "mean": 86.84,
+        "stddev": 40.24,
+        "min": 37,
+        "max": 174,
+        "total": 2605,
+        "p0_001": 37,
+        "p0_01": 37,
+        "p0_1": 37,
+        "p1": 37,
+        "p2_5": 37,
+        "p10": 40,
+        "p25": 51,
+        "p50": 80,
+        "p75": 126,
+        "p90": 141,
+        "p97_5": 174,
+        "p99": 174,
+        "p99_9": 174,
+        "p99_99": 174,
+        "p99_999": 174,
+        "sent": 2805
+      },
+      "throughput": {
+        "average": 21616.8,
+        "mean": 21616.8,
+        "stddev": 10018.73,
+        "min": 9213,
+        "max": 43322,
+        "total": 648495,
+        "p0_001": 9215,
+        "p0_01": 9215,
+        "p0_1": 9215,
+        "p1": 9215,
+        "p2_5": 9215,
+        "p10": 9959,
+        "p25": 12703,
+        "p50": 19935,
+        "p75": 31343,
+        "p90": 35135,
+        "p97_5": 43327,
+        "p99": 43327,
+        "p99_9": 43327,
+        "p99_99": 43327,
+        "p99_999": 43327
+      }
+    }
+  ],
+  "resourceUsage": [
+    {
+      "timestamp": 1760472429076,
+      "type": "without-pooling",
+      "cpu": 15.6,
+      "memory": 68915200,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472429735,
+      "type": "without-pooling",
+      "cpu": 0,
+      "memory": 74866688,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472430740,
+      "type": "without-pooling",
+      "cpu": 40.699999999999996,
+      "memory": 76222464,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472431736,
+      "type": "without-pooling",
+      "cpu": 43.7,
+      "memory": 77475840,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472432733,
+      "type": "without-pooling",
+      "cpu": 37.5,
+      "memory": 78635008,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472433733,
+      "type": "without-pooling",
+      "cpu": 53.1,
+      "memory": 80289792,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472434739,
+      "type": "without-pooling",
+      "cpu": 35.9,
+      "memory": 88055808,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472435746,
+      "type": "without-pooling",
+      "cpu": 43.8,
+      "memory": 95961088,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472436728,
+      "type": "without-pooling",
+      "cpu": 42.199999999999996,
+      "memory": 96550912,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472437744,
+      "type": "without-pooling",
+      "cpu": 34.300000000000004,
+      "memory": 98340864,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472438755,
+      "type": "without-pooling",
+      "cpu": 64.1,
+      "memory": 99303424,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472439748,
+      "type": "without-pooling",
+      "cpu": 34.4,
+      "memory": 100397056,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472440757,
+      "type": "without-pooling",
+      "cpu": 26.6,
+      "memory": 101666816,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472441754,
+      "type": "without-pooling",
+      "cpu": 42.1,
+      "memory": 102699008,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472442746,
+      "type": "without-pooling",
+      "cpu": 45.300000000000004,
+      "memory": 104075264,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472443753,
+      "type": "without-pooling",
+      "cpu": 36,
+      "memory": 103895040,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472444768,
+      "type": "without-pooling",
+      "cpu": 53.1,
+      "memory": 104259584,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472445769,
+      "type": "without-pooling",
+      "cpu": 45.300000000000004,
+      "memory": 104206336,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472446768,
+      "type": "without-pooling",
+      "cpu": 51.6,
+      "memory": 104259584,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472447758,
+      "type": "without-pooling",
+      "cpu": 46.9,
+      "memory": 104419328,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472448779,
+      "type": "without-pooling",
+      "cpu": 57.8,
+      "memory": 104718336,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472449775,
+      "type": "without-pooling",
+      "cpu": 25,
+      "memory": 104763392,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472450759,
+      "type": "without-pooling",
+      "cpu": 28.1,
+      "memory": 104271872,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472451794,
+      "type": "without-pooling",
+      "cpu": 21.9,
+      "memory": 104710144,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472452772,
+      "type": "without-pooling",
+      "cpu": 39.1,
+      "memory": 104976384,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472453777,
+      "type": "without-pooling",
+      "cpu": 53.1,
+      "memory": 104415232,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472454807,
+      "type": "without-pooling",
+      "cpu": 51.5,
+      "memory": 104648704,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472455814,
+      "type": "without-pooling",
+      "cpu": 40.6,
+      "memory": 103858176,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472456798,
+      "type": "without-pooling",
+      "cpu": 61,
+      "memory": 104390656,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472457748,
+      "type": "without-pooling",
+      "cpu": 85.9,
+      "memory": 105189376,
+      "concurrentUsers": 10
+    },
+    {
+      "timestamp": 1760472460966,
+      "type": "without-pooling",
+      "cpu": 24.224999999999998,
+      "memory": 108351488,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472461981,
+      "type": "without-pooling",
+      "cpu": 59.3,
+      "memory": 108269568,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472462978,
+      "type": "without-pooling",
+      "cpu": 70.39999999999999,
+      "memory": 108306432,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472464015,
+      "type": "without-pooling",
+      "cpu": 57.8,
+      "memory": 108519424,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472464998,
+      "type": "without-pooling",
+      "cpu": 53.1,
+      "memory": 108322816,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472465950,
+      "type": "without-pooling",
+      "cpu": 51.6,
+      "memory": 109580288,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472466959,
+      "type": "without-pooling",
+      "cpu": 87.5,
+      "memory": 108834816,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472468010,
+      "type": "without-pooling",
+      "cpu": 64.1,
+      "memory": 108343296,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472468990,
+      "type": "without-pooling",
+      "cpu": 48.4,
+      "memory": 108691456,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472470007,
+      "type": "without-pooling",
+      "cpu": 46.9,
+      "memory": 108933120,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472470980,
+      "type": "without-pooling",
+      "cpu": 49.9,
+      "memory": 109449216,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472471979,
+      "type": "without-pooling",
+      "cpu": 61,
+      "memory": 108896256,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472472985,
+      "type": "without-pooling",
+      "cpu": 57.8,
+      "memory": 108359680,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472474056,
+      "type": "without-pooling",
+      "cpu": 43.7,
+      "memory": 109039616,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472475006,
+      "type": "without-pooling",
+      "cpu": 42.3,
+      "memory": 108756992,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472475941,
+      "type": "without-pooling",
+      "cpu": 43.7,
+      "memory": 108830720,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472476991,
+      "type": "without-pooling",
+      "cpu": 50,
+      "memory": 108830720,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472478065,
+      "type": "without-pooling",
+      "cpu": 56.2,
+      "memory": 108830720,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472479079,
+      "type": "without-pooling",
+      "cpu": 54.7,
+      "memory": 108929024,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472480081,
+      "type": "without-pooling",
+      "cpu": 73.4,
+      "memory": 108675072,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472481090,
+      "type": "without-pooling",
+      "cpu": 54.800000000000004,
+      "memory": 108716032,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472482061,
+      "type": "without-pooling",
+      "cpu": 51.5,
+      "memory": 108773376,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472483081,
+      "type": "without-pooling",
+      "cpu": 42.199999999999996,
+      "memory": 108793856,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472484095,
+      "type": "without-pooling",
+      "cpu": 35.9,
+      "memory": 108793856,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472485066,
+      "type": "without-pooling",
+      "cpu": 57.9,
+      "memory": 108838912,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472486074,
+      "type": "without-pooling",
+      "cpu": 42.199999999999996,
+      "memory": 108249088,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472487083,
+      "type": "without-pooling",
+      "cpu": 68.7,
+      "memory": 108523520,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472488121,
+      "type": "without-pooling",
+      "cpu": 73.5,
+      "memory": 108277760,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472489126,
+      "type": "without-pooling",
+      "cpu": 65.5,
+      "memory": 108859392,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472490017,
+      "type": "without-pooling",
+      "cpu": 53.2,
+      "memory": 109113344,
+      "concurrentUsers": 50
+    },
+    {
+      "timestamp": 1760472493143,
+      "type": "without-pooling",
+      "cpu": 22.93333333333333,
+      "memory": 111783936,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472494250,
+      "type": "without-pooling",
+      "cpu": 81.2,
+      "memory": 112148480,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472495271,
+      "type": "without-pooling",
+      "cpu": 40.699999999999996,
+      "memory": 112222208,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472496267,
+      "type": "without-pooling",
+      "cpu": 78.10000000000001,
+      "memory": 111771648,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472497283,
+      "type": "without-pooling",
+      "cpu": 45.2,
+      "memory": 112107520,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472498272,
+      "type": "without-pooling",
+      "cpu": 56.3,
+      "memory": 112070656,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472499287,
+      "type": "without-pooling",
+      "cpu": 56.3,
+      "memory": 111644672,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472500222,
+      "type": "without-pooling",
+      "cpu": 49.9,
+      "memory": 112025600,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472501327,
+      "type": "without-pooling",
+      "cpu": 37.6,
+      "memory": 112312320,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472502308,
+      "type": "without-pooling",
+      "cpu": 74.9,
+      "memory": 112046080,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472503373,
+      "type": "without-pooling",
+      "cpu": 48.5,
+      "memory": 112369664,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472504215,
+      "type": "without-pooling",
+      "cpu": 68.8,
+      "memory": 112369664,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472505262,
+      "type": "without-pooling",
+      "cpu": 64,
+      "memory": 112381952,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472506076,
+      "type": "without-pooling",
+      "cpu": 68.8,
+      "memory": 111968256,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472507337,
+      "type": "without-pooling",
+      "cpu": 46.800000000000004,
+      "memory": 112001024,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472508157,
+      "type": "without-pooling",
+      "cpu": 43.8,
+      "memory": 111759360,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472509285,
+      "type": "without-pooling",
+      "cpu": 34.300000000000004,
+      "memory": 111919104,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472510316,
+      "type": "without-pooling",
+      "cpu": 39.1,
+      "memory": 112152576,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472511354,
+      "type": "without-pooling",
+      "cpu": 39.1,
+      "memory": 112168960,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472512373,
+      "type": "without-pooling",
+      "cpu": 43.8,
+      "memory": 112193536,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472513358,
+      "type": "without-pooling",
+      "cpu": 68.7,
+      "memory": 112164864,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472514327,
+      "type": "without-pooling",
+      "cpu": 56.2,
+      "memory": 112205824,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472515377,
+      "type": "without-pooling",
+      "cpu": 50,
+      "memory": 112205824,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472516328,
+      "type": "without-pooling",
+      "cpu": 42.199999999999996,
+      "memory": 112205824,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472517318,
+      "type": "without-pooling",
+      "cpu": 45.300000000000004,
+      "memory": 112205824,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472518288,
+      "type": "without-pooling",
+      "cpu": 36,
+      "memory": 112504832,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472519270,
+      "type": "without-pooling",
+      "cpu": 39,
+      "memory": 112504832,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472520339,
+      "type": "without-pooling",
+      "cpu": 54.7,
+      "memory": 112504832,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472521158,
+      "type": "without-pooling",
+      "cpu": 51.6,
+      "memory": 112017408,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472522276,
+      "type": "without-pooling",
+      "cpu": 37.5,
+      "memory": 112029696,
+      "concurrentUsers": 100
+    },
+    {
+      "timestamp": 1760472525443,
+      "type": "without-pooling",
+      "cpu": 33.86666666666667,
+      "memory": 114647040,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472526488,
+      "type": "without-pooling",
+      "cpu": 25,
+      "memory": 114761728,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472527599,
+      "type": "without-pooling",
+      "cpu": 84.3,
+      "memory": 114573312,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472528502,
+      "type": "without-pooling",
+      "cpu": 54.7,
+      "memory": 114741248,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472529626,
+      "type": "without-pooling",
+      "cpu": 40.6,
+      "memory": 115519488,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472530661,
+      "type": "without-pooling",
+      "cpu": 34.4,
+      "memory": 115519488,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472531300,
+      "type": "without-pooling",
+      "cpu": 92.2,
+      "memory": 115658752,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472532599,
+      "type": "without-pooling",
+      "cpu": 34.4,
+      "memory": 115752960,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472533465,
+      "type": "without-pooling",
+      "cpu": 17.2,
+      "memory": 115785728,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472534372,
+      "type": "without-pooling",
+      "cpu": 82.69999999999999,
+      "memory": 116641792,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472535517,
+      "type": "without-pooling",
+      "cpu": 34.5,
+      "memory": 116113408,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472536343,
+      "type": "without-pooling",
+      "cpu": 53.1,
+      "memory": 116617216,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472537460,
+      "type": "without-pooling",
+      "cpu": 51.5,
+      "memory": 116621312,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472538515,
+      "type": "without-pooling",
+      "cpu": 26.6,
+      "memory": 116973568,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472539616,
+      "type": "without-pooling",
+      "cpu": 39.1,
+      "memory": 116973568,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472540526,
+      "type": "without-pooling",
+      "cpu": 40.5,
+      "memory": 116973568,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472541500,
+      "type": "without-pooling",
+      "cpu": 53.2,
+      "memory": 116359168,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472542862,
+      "type": "without-pooling",
+      "cpu": 57.8,
+      "memory": 116789248,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472543572,
+      "type": "without-pooling",
+      "cpu": 45.300000000000004,
+      "memory": 116936704,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472544311,
+      "type": "without-pooling",
+      "cpu": 76.6,
+      "memory": 116641792,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472545592,
+      "type": "without-pooling",
+      "cpu": 39.1,
+      "memory": 116719616,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472546621,
+      "type": "without-pooling",
+      "cpu": 15.6,
+      "memory": 116719616,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472547405,
+      "type": "without-pooling",
+      "cpu": 75,
+      "memory": 117809152,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472548429,
+      "type": "without-pooling",
+      "cpu": 48.4,
+      "memory": 117813248,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472549445,
+      "type": "without-pooling",
+      "cpu": 42.199999999999996,
+      "memory": 117821440,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472550542,
+      "type": "without-pooling",
+      "cpu": 56.3,
+      "memory": 116998144,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472551616,
+      "type": "without-pooling",
+      "cpu": 54.6,
+      "memory": 117420032,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472552535,
+      "type": "without-pooling",
+      "cpu": 26.6,
+      "memory": 117489664,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472553425,
+      "type": "without-pooling",
+      "cpu": 87.5,
+      "memory": 117366784,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472554707,
+      "type": "without-pooling",
+      "cpu": 32.800000000000004,
+      "memory": 118038528,
+      "concurrentUsers": 200
+    },
+    {
+      "timestamp": 1760472557259,
+      "type": "with-pooling",
+      "cpu": 22.900000000000002,
+      "memory": 117600256,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472558257,
+      "type": "with-pooling",
+      "cpu": 18.9,
+      "memory": 118005760,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472559269,
+      "type": "with-pooling",
+      "cpu": 6.2,
+      "memory": 118251520,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472560274,
+      "type": "with-pooling",
+      "cpu": 18.7,
+      "memory": 117489664,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472561285,
+      "type": "with-pooling",
+      "cpu": 7.8,
+      "memory": 118247424,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472562296,
+      "type": "with-pooling",
+      "cpu": 14.099999999999998,
+      "memory": 118325248,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472563291,
+      "type": "with-pooling",
+      "cpu": 9.4,
+      "memory": 118407168,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472564295,
+      "type": "with-pooling",
+      "cpu": 31.2,
+      "memory": 117514240,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472565302,
+      "type": "with-pooling",
+      "cpu": 9.4,
+      "memory": 117227520,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472566319,
+      "type": "with-pooling",
+      "cpu": 15.6,
+      "memory": 117207040,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472567420,
+      "type": "with-pooling",
+      "cpu": 20.3,
+      "memory": 117293056,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472568309,
+      "type": "with-pooling",
+      "cpu": 18.7,
+      "memory": 117293056,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472569321,
+      "type": "with-pooling",
+      "cpu": 11,
+      "memory": 117293056,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472570331,
+      "type": "with-pooling",
+      "cpu": 14.099999999999998,
+      "memory": 117399552,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472571334,
+      "type": "with-pooling",
+      "cpu": 14.000000000000002,
+      "memory": 117399552,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472572339,
+      "type": "with-pooling",
+      "cpu": 15.6,
+      "memory": 117403648,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472573340,
+      "type": "with-pooling",
+      "cpu": 14.2,
+      "memory": 117403648,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472574347,
+      "type": "with-pooling",
+      "cpu": 15.6,
+      "memory": 117411840,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472575358,
+      "type": "with-pooling",
+      "cpu": 25,
+      "memory": 117424128,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472576371,
+      "type": "with-pooling",
+      "cpu": 20.200000000000003,
+      "memory": 117424128,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472577386,
+      "type": "with-pooling",
+      "cpu": 22,
+      "memory": 117424128,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472578407,
+      "type": "with-pooling",
+      "cpu": 20.3,
+      "memory": 117809152,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472579408,
+      "type": "with-pooling",
+      "cpu": 12.5,
+      "memory": 117813248,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472580385,
+      "type": "with-pooling",
+      "cpu": 20.200000000000003,
+      "memory": 117813248,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472581388,
+      "type": "with-pooling",
+      "cpu": 12.6,
+      "memory": 117813248,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472582402,
+      "type": "with-pooling",
+      "cpu": 9.4,
+      "memory": 117813248,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472583415,
+      "type": "with-pooling",
+      "cpu": 15.5,
+      "memory": 117813248,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472584424,
+      "type": "with-pooling",
+      "cpu": 14.099999999999998,
+      "memory": 117813248,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472585427,
+      "type": "with-pooling",
+      "cpu": 9.4,
+      "memory": 117813248,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472586435,
+      "type": "with-pooling",
+      "cpu": 9.3,
+      "memory": 117325824,
+      "concurrentUsers": 10,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472589471,
+      "type": "with-pooling",
+      "cpu": 11.5,
+      "memory": 117645312,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472590477,
+      "type": "with-pooling",
+      "cpu": 15.6,
+      "memory": 117723136,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472591479,
+      "type": "with-pooling",
+      "cpu": 21.9,
+      "memory": 118042624,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472592476,
+      "type": "with-pooling",
+      "cpu": 32.800000000000004,
+      "memory": 118042624,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472593480,
+      "type": "with-pooling",
+      "cpu": 20.3,
+      "memory": 118046720,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472594488,
+      "type": "with-pooling",
+      "cpu": 18.7,
+      "memory": 117313536,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472595488,
+      "type": "with-pooling",
+      "cpu": 20.3,
+      "memory": 117420032,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472596491,
+      "type": "with-pooling",
+      "cpu": 29.7,
+      "memory": 117493760,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472597499,
+      "type": "with-pooling",
+      "cpu": 15.6,
+      "memory": 117493760,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472598491,
+      "type": "with-pooling",
+      "cpu": 25.1,
+      "memory": 117493760,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472599504,
+      "type": "with-pooling",
+      "cpu": 23.3,
+      "memory": 117493760,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472600514,
+      "type": "with-pooling",
+      "cpu": 21.9,
+      "memory": 117555200,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472601510,
+      "type": "with-pooling",
+      "cpu": 25.1,
+      "memory": 117555200,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472602516,
+      "type": "with-pooling",
+      "cpu": 39,
+      "memory": 117620736,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472603521,
+      "type": "with-pooling",
+      "cpu": 7.8,
+      "memory": 117620736,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472604522,
+      "type": "with-pooling",
+      "cpu": 31.3,
+      "memory": 117620736,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472605529,
+      "type": "with-pooling",
+      "cpu": 14.099999999999998,
+      "memory": 117620736,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472606540,
+      "type": "with-pooling",
+      "cpu": 12.4,
+      "memory": 117620736,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472607544,
+      "type": "with-pooling",
+      "cpu": 34.4,
+      "memory": 117620736,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472608535,
+      "type": "with-pooling",
+      "cpu": 20.3,
+      "memory": 117620736,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472609553,
+      "type": "with-pooling",
+      "cpu": 26.6,
+      "memory": 117620736,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472610551,
+      "type": "with-pooling",
+      "cpu": 34.4,
+      "memory": 117620736,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472611558,
+      "type": "with-pooling",
+      "cpu": 29.599999999999998,
+      "memory": 117727232,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472612557,
+      "type": "with-pooling",
+      "cpu": 18.8,
+      "memory": 117534720,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472613561,
+      "type": "with-pooling",
+      "cpu": 32.800000000000004,
+      "memory": 117624832,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472614561,
+      "type": "with-pooling",
+      "cpu": 25,
+      "memory": 117624832,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472615565,
+      "type": "with-pooling",
+      "cpu": 15.6,
+      "memory": 117637120,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472616586,
+      "type": "with-pooling",
+      "cpu": 14.099999999999998,
+      "memory": 117641216,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472617570,
+      "type": "with-pooling",
+      "cpu": 18.7,
+      "memory": 117694464,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472618575,
+      "type": "with-pooling",
+      "cpu": 26.6,
+      "memory": 117739520,
+      "concurrentUsers": 50,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472621615,
+      "type": "with-pooling",
+      "cpu": 10.433333333333334,
+      "memory": 118337536,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472622621,
+      "type": "with-pooling",
+      "cpu": 3.1,
+      "memory": 118681600,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472623623,
+      "type": "with-pooling",
+      "cpu": 29.7,
+      "memory": 117985280,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472624634,
+      "type": "with-pooling",
+      "cpu": 32.800000000000004,
+      "memory": 117989376,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472625631,
+      "type": "with-pooling",
+      "cpu": 29.7,
+      "memory": 118022144,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472626628,
+      "type": "with-pooling",
+      "cpu": 35.9,
+      "memory": 118022144,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472627638,
+      "type": "with-pooling",
+      "cpu": 7.8,
+      "memory": 118022144,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472628651,
+      "type": "with-pooling",
+      "cpu": 17.2,
+      "memory": 118145024,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472629640,
+      "type": "with-pooling",
+      "cpu": 26.6,
+      "memory": 118378496,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472630640,
+      "type": "with-pooling",
+      "cpu": 14.000000000000002,
+      "memory": 118378496,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472631648,
+      "type": "with-pooling",
+      "cpu": 6.3,
+      "memory": 118378496,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472632653,
+      "type": "with-pooling",
+      "cpu": 12.5,
+      "memory": 118378496,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472633664,
+      "type": "with-pooling",
+      "cpu": 7.8,
+      "memory": 118378496,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472634643,
+      "type": "with-pooling",
+      "cpu": 15.6,
+      "memory": 118394880,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472635651,
+      "type": "with-pooling",
+      "cpu": 9.4,
+      "memory": 118394880,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472636655,
+      "type": "with-pooling",
+      "cpu": 6.3,
+      "memory": 118394880,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472637654,
+      "type": "with-pooling",
+      "cpu": 6.2,
+      "memory": 118394880,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472638663,
+      "type": "with-pooling",
+      "cpu": 18.7,
+      "memory": 118394880,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472639678,
+      "type": "with-pooling",
+      "cpu": 6.4,
+      "memory": 118394880,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472640682,
+      "type": "with-pooling",
+      "cpu": 9.3,
+      "memory": 117997568,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472641691,
+      "type": "with-pooling",
+      "cpu": 7.8,
+      "memory": 118059008,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472642690,
+      "type": "with-pooling",
+      "cpu": 9.4,
+      "memory": 118059008,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472643711,
+      "type": "with-pooling",
+      "cpu": 9.4,
+      "memory": 118063104,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472644712,
+      "type": "with-pooling",
+      "cpu": 9.3,
+      "memory": 118161408,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472645711,
+      "type": "with-pooling",
+      "cpu": 17.2,
+      "memory": 117755904,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472646716,
+      "type": "with-pooling",
+      "cpu": 18.8,
+      "memory": 117755904,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472647732,
+      "type": "with-pooling",
+      "cpu": 21.9,
+      "memory": 117784576,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472648737,
+      "type": "with-pooling",
+      "cpu": 7.8,
+      "memory": 117784576,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472649743,
+      "type": "with-pooling",
+      "cpu": 10.9,
+      "memory": 117948416,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472650742,
+      "type": "with-pooling",
+      "cpu": 17.2,
+      "memory": 118267904,
+      "concurrentUsers": 100,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472653783,
+      "type": "with-pooling",
+      "cpu": 9.866666666666667,
+      "memory": 118730752,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472654782,
+      "type": "with-pooling",
+      "cpu": 11,
+      "memory": 118730752,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472655781,
+      "type": "with-pooling",
+      "cpu": 7.9,
+      "memory": 118153216,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472656788,
+      "type": "with-pooling",
+      "cpu": 14.000000000000002,
+      "memory": 118214656,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472657790,
+      "type": "with-pooling",
+      "cpu": 9.4,
+      "memory": 118214656,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472658806,
+      "type": "with-pooling",
+      "cpu": 7.8,
+      "memory": 118304768,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472659796,
+      "type": "with-pooling",
+      "cpu": 17.1,
+      "memory": 117870592,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472660796,
+      "type": "with-pooling",
+      "cpu": 12.5,
+      "memory": 117960704,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472661811,
+      "type": "with-pooling",
+      "cpu": 7.8,
+      "memory": 117960704,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472662817,
+      "type": "with-pooling",
+      "cpu": 26.6,
+      "memory": 117960704,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472663814,
+      "type": "with-pooling",
+      "cpu": 18.8,
+      "memory": 117960704,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472664815,
+      "type": "with-pooling",
+      "cpu": 9.3,
+      "memory": 118140928,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472665825,
+      "type": "with-pooling",
+      "cpu": 17.2,
+      "memory": 118169600,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472666827,
+      "type": "with-pooling",
+      "cpu": 11,
+      "memory": 118169600,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472667843,
+      "type": "with-pooling",
+      "cpu": 14.000000000000002,
+      "memory": 118169600,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472668839,
+      "type": "with-pooling",
+      "cpu": 18.8,
+      "memory": 118169600,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472669837,
+      "type": "with-pooling",
+      "cpu": 15.6,
+      "memory": 118169600,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472670832,
+      "type": "with-pooling",
+      "cpu": 23.400000000000002,
+      "memory": 118169600,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472671848,
+      "type": "with-pooling",
+      "cpu": 20.3,
+      "memory": 118169600,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472672863,
+      "type": "with-pooling",
+      "cpu": 26.6,
+      "memory": 118169600,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472673860,
+      "type": "with-pooling",
+      "cpu": 36,
+      "memory": 118169600,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472674866,
+      "type": "with-pooling",
+      "cpu": 24.9,
+      "memory": 117841920,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472675875,
+      "type": "with-pooling",
+      "cpu": 21.9,
+      "memory": 118255616,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472676872,
+      "type": "with-pooling",
+      "cpu": 18.8,
+      "memory": 118431744,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472677877,
+      "type": "with-pooling",
+      "cpu": 20.3,
+      "memory": 118431744,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472678879,
+      "type": "with-pooling",
+      "cpu": 18.7,
+      "memory": 118431744,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472679883,
+      "type": "with-pooling",
+      "cpu": 28.199999999999996,
+      "memory": 118431744,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472680880,
+      "type": "with-pooling",
+      "cpu": 40.6,
+      "memory": 118501376,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472681882,
+      "type": "with-pooling",
+      "cpu": 34.4,
+      "memory": 118501376,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472682890,
+      "type": "with-pooling",
+      "cpu": 11.700000000000001,
+      "memory": 118951936,
+      "concurrentUsers": 200,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472685979,
+      "type": "with-pooling",
+      "cpu": 31.8,
+      "memory": 122028032,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472686977,
+      "type": "with-pooling",
+      "cpu": 29.599999999999998,
+      "memory": 123035648,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472687985,
+      "type": "with-pooling",
+      "cpu": 21.9,
+      "memory": 122114048,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472688990,
+      "type": "with-pooling",
+      "cpu": 4.7,
+      "memory": 122183680,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472689998,
+      "type": "with-pooling",
+      "cpu": 23.400000000000002,
+      "memory": 122187776,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472691003,
+      "type": "with-pooling",
+      "cpu": 18.7,
+      "memory": 122228736,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472692005,
+      "type": "with-pooling",
+      "cpu": 15.7,
+      "memory": 122298368,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472693013,
+      "type": "with-pooling",
+      "cpu": 25,
+      "memory": 123166720,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472694014,
+      "type": "with-pooling",
+      "cpu": 12.5,
+      "memory": 123166720,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472695015,
+      "type": "with-pooling",
+      "cpu": 34.300000000000004,
+      "memory": 123166720,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472696021,
+      "type": "with-pooling",
+      "cpu": 23.5,
+      "memory": 123166720,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472697014,
+      "type": "with-pooling",
+      "cpu": 15.6,
+      "memory": 123166720,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472698034,
+      "type": "with-pooling",
+      "cpu": 25,
+      "memory": 123166720,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472699038,
+      "type": "with-pooling",
+      "cpu": 34.4,
+      "memory": 122478592,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472700038,
+      "type": "with-pooling",
+      "cpu": 28.1,
+      "memory": 123408384,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472701039,
+      "type": "with-pooling",
+      "cpu": 20.3,
+      "memory": 123408384,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472702041,
+      "type": "with-pooling",
+      "cpu": 18.8,
+      "memory": 123408384,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472703046,
+      "type": "with-pooling",
+      "cpu": 18.8,
+      "memory": 123408384,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472704040,
+      "type": "with-pooling",
+      "cpu": 21.9,
+      "memory": 123408384,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472705049,
+      "type": "with-pooling",
+      "cpu": 21.8,
+      "memory": 123555840,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472706051,
+      "type": "with-pooling",
+      "cpu": 29.599999999999998,
+      "memory": 123543552,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472707062,
+      "type": "with-pooling",
+      "cpu": 23.5,
+      "memory": 123543552,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472708065,
+      "type": "with-pooling",
+      "cpu": 40.699999999999996,
+      "memory": 123609088,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472709085,
+      "type": "with-pooling",
+      "cpu": 24.9,
+      "memory": 123609088,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472710078,
+      "type": "with-pooling",
+      "cpu": 34.5,
+      "memory": 123674624,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472711088,
+      "type": "with-pooling",
+      "cpu": 24.9,
+      "memory": 123674624,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472712089,
+      "type": "with-pooling",
+      "cpu": 28.1,
+      "memory": 122744832,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472713097,
+      "type": "with-pooling",
+      "cpu": 23.5,
+      "memory": 123727872,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472714098,
+      "type": "with-pooling",
+      "cpu": 15.6,
+      "memory": 123785216,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472715106,
+      "type": "with-pooling",
+      "cpu": 36,
+      "memory": 123387904,
+      "concurrentUsers": 500,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472718368,
+      "type": "with-pooling",
+      "cpu": 65.06666666666666,
+      "memory": 130670592,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472719308,
+      "type": "with-pooling",
+      "cpu": 128.2,
+      "memory": 130572288,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472720225,
+      "type": "with-pooling",
+      "cpu": 76.5,
+      "memory": 133476352,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472721227,
+      "type": "with-pooling",
+      "cpu": 31.3,
+      "memory": 132644864,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472722243,
+      "type": "with-pooling",
+      "cpu": 17.1,
+      "memory": 133292032,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472723229,
+      "type": "with-pooling",
+      "cpu": 22,
+      "memory": 133357568,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472724230,
+      "type": "with-pooling",
+      "cpu": 29.7,
+      "memory": 135364608,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472725253,
+      "type": "with-pooling",
+      "cpu": 21.8,
+      "memory": 135434240,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472726255,
+      "type": "with-pooling",
+      "cpu": 34.4,
+      "memory": 140169216,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472727255,
+      "type": "with-pooling",
+      "cpu": 18.7,
+      "memory": 140562432,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472728258,
+      "type": "with-pooling",
+      "cpu": 18.8,
+      "memory": 140562432,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472729256,
+      "type": "with-pooling",
+      "cpu": 42.199999999999996,
+      "memory": 139718656,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472730264,
+      "type": "with-pooling",
+      "cpu": 28.1,
+      "memory": 140566528,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472731274,
+      "type": "with-pooling",
+      "cpu": 26.5,
+      "memory": 140578816,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472732290,
+      "type": "with-pooling",
+      "cpu": 32.9,
+      "memory": 140894208,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472733295,
+      "type": "with-pooling",
+      "cpu": 31.3,
+      "memory": 142352384,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472734294,
+      "type": "with-pooling",
+      "cpu": 26.5,
+      "memory": 142417920,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472735298,
+      "type": "with-pooling",
+      "cpu": 21.9,
+      "memory": 143319040,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472736305,
+      "type": "with-pooling",
+      "cpu": 31.2,
+      "memory": 143323136,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472737315,
+      "type": "with-pooling",
+      "cpu": 35.9,
+      "memory": 143388672,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472738308,
+      "type": "with-pooling",
+      "cpu": 15.7,
+      "memory": 143388672,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472739327,
+      "type": "with-pooling",
+      "cpu": 1.5,
+      "memory": 143388672,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472740320,
+      "type": "with-pooling",
+      "cpu": 12.5,
+      "memory": 144162816,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472741334,
+      "type": "with-pooling",
+      "cpu": 11,
+      "memory": 144228352,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472742333,
+      "type": "with-pooling",
+      "cpu": 4.7,
+      "memory": 144228352,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472743334,
+      "type": "with-pooling",
+      "cpu": 17.2,
+      "memory": 144343040,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472744354,
+      "type": "with-pooling",
+      "cpu": 12.4,
+      "memory": 144343040,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472745370,
+      "type": "with-pooling",
+      "cpu": 9.4,
+      "memory": 144343040,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472746366,
+      "type": "with-pooling",
+      "cpu": 4.7,
+      "memory": 144343040,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    },
+    {
+      "timestamp": 1760472747377,
+      "type": "with-pooling",
+      "cpu": 34.4,
+      "memory": 142499840,
+      "concurrentUsers": 1000,
+      "poolSize": 20
+    }
+  ]
+}
