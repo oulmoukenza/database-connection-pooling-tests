@@ -7,7 +7,7 @@
     "test:postgres": "node tests/postgres-benchmark.js",
     "test:all": "npm run test:postgres",
     "generate:report": "node utils/report-generator.js",
-    "generate:charts": "C:/Users/ryuga/anaconda3/envs/pooling-test/python.exe utils/simple-chart-generator.py",
+    "generate:charts": "python utils/chart-generator.py",
     "setup:postgres": "node setup/postgres-setup.js",
     "test:overhead": "node tests/postgres-overhead-test.js"
   },
